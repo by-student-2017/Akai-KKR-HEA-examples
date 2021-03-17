@@ -2,7 +2,7 @@ c----------------------HEA-----------------------------------
     go   data/CoCrCuFeNi
 c------------------------------------------------------------
 c   brvtyp     a        c/a   b/a   alpha   beta   gamma
-    bcc        6.763  ,        ,      ,      ,       ,      ,
+    fcc        6.763  ,        ,      ,      ,       ,      ,
 c------------------------------------------------------------
 c   edelt    ewidth    reltyp   sdftyp   magtyp   record
     0.001     1.0       sra       pbe     mag      2nd
@@ -30,7 +30,7 @@ c----------------------HEA-----------------------------------
     dos   data/CoCrCuFeNi
 c------------------------------------------------------------
 c   brvtyp     a        c/a   b/a   alpha   beta   gamma
-    bcc        6.763  ,        ,      ,      ,       ,      ,
+    fcc        6.763  ,        ,      ,      ,       ,      ,
 c------------------------------------------------------------
 c   edelt    ewidth    reltyp   sdftyp   magtyp   record
     0.001     1.0       sra      pbe      mag      2nd
