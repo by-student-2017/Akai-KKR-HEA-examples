@@ -2,7 +2,7 @@ KKR-CPA calculation
 XC potential = PBE
 
 Step 1
-  Get to Akai-KKR from http://kkr.issp.u-tokyo.ac.jp/jp/
+  Get Akai-KKR code from http://kkr.issp.u-tokyo.ac.jp/jp/
 
 Step 2
   open terminal or consol on Linux window (e.g., Ubuntu 18.04)
@@ -38,6 +38,14 @@ Appendix Step XX
   (lattice constant (bohr), total energy (Ry), total spin moment)
   use lattice constant of most low energy.
   Normally, the calculated lattice constant differs from the experimental value by about 3%. 
+  
+Appendix: OpenMP parallel calculation
+(4 core case)
+  export OMP_NUM_THREADS=4
+(6 core case)
+  export OMP_NUM_THREADS=6
+(8 core case)
+  export OMP_NUM_THREADS=8
 ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
 CrMnFeCoNi
 [1] Z. Qiu et al., International Journal of Lightweight Materials and Manufacture, 1 (2018) 33-39.
