@@ -31,6 +31,7 @@
 ## Appendix: Step XX
 3. ./specx < in/CoCrFeNi_lat
 4. cat ./data/CoCrFeNi.info
+
 	(lattice constant (bohr), total energy (Ry), total spin moment)
 	use lattice constant of most low energy.
 	Normally, the calculated lattice constant differs from the experimental value by about 3%. 
