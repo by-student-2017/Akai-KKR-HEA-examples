@@ -20,8 +20,8 @@
 * Recommend to see https://www.nature.com/articles/srep39803.pdf
 
 * Appendix Step XX
-	./specx < in/CoCrFeNi_lat
-	cat ./data/CoCrFeNi.info
+10. ./specx < in/CoCrFeNi_lat
+11. cat ./data/CoCrFeNi.info
 	(lattice constant (bohr), total energy (Ry), total spin moment)
 	use lattice constant of most low energy.
 	Normally, the calculated lattice constant differs from the experimental value by about 3%. 
