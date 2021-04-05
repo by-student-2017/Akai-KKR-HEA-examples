@@ -19,6 +19,7 @@
 
 7. make
 8. gfortran source/gpd.f -o gpd
+9. gfortran util/fmg.f -o fmg
 
 
 ## Usage
