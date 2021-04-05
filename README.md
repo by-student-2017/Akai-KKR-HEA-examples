@@ -2,7 +2,7 @@
 
 * KKR-CPA calculation
 * XC potential = PBE
-* check Akai-KKR (March 29, 2021 [ 03:31:26 ])
+* Akai-KKR (March 29, 2021 [ 03:31:26 ])
 * http://kkr.issp.u-tokyo.ac.jp/jp/
 
 ## Installation
