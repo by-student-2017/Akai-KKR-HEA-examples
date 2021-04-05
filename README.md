@@ -27,7 +27,7 @@
 * Recommend to see https://www.nature.com/articles/srep39803.pdf
 
 
-## Appendix Step XX
+## Appendix: Step XX
 3. ./specx < in/CoCrFeNi_lat
 4. cat ./data/CoCrFeNi.info
 	(lattice constant (bohr), total energy (Ry), total spin moment)
