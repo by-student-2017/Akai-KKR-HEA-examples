@@ -2,10 +2,11 @@
 
 * KKR-CPA calculation
 * XC potential = PBE
-
+* check Akai-KKR (March 29, 2021 [ 03:31:26 ])
+* http://kkr.issp.u-tokyo.ac.jp/jp/
 
 ## Installation
-1. Get Akai-KKR code from http://kkr.issp.u-tokyo.ac.jp/jp/ (March 29, 2021 [ 03:31:26 ])
+1. Get Akai-KKR code from http://kkr.issp.u-tokyo.ac.jp/jp/
 2. open terminal or consol on Linux window (e.g., Ubuntu 18.04)
 3. sudo apt -y install gnuplot gfortran 
 4. tar zxvf cpa2002v010.tgz
