@@ -12,8 +12,10 @@
 4. tar zxvf cpa2002v010.tgz
 5. cd cpa2002v010
 6. vi makefilz
+
 	#fort = ifort
 	fort = gfortran
+
 7. make
 8. gfortran source/gpd.f -o gpd
 
