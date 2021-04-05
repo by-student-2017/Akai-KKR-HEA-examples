@@ -14,6 +14,7 @@
 6. vi makefilz
 
 	#fort = ifort
+
 	fort = gfortran
 
 7. make
