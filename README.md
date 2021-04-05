@@ -34,7 +34,7 @@
 * (lattice constant (bohr), total energy (Ry), total spin moment)
 * use lattice constant of most low energy.
 * Normally, the calculated lattice constant differs from the experimental value by about 3%. 
-* The "CPA" method is theoretically acceptable for any mixing ratio. 
+* The CPA method is theoretically acceptable for any mixing ratio. 
 * At present, the effect of stabilizing the energy more by slightly shifting the atomic position from the FCC etc. is not included. If you want to take such an effect into consideration, you need to calculate with PWscf or VASP using a supercell. This calculation is very costly. Think carefully about whether you really need a calculation that includes this effect. It is unreasonable to demand unnecessarily high accuracy. 
 
 
