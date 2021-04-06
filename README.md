@@ -50,4 +50,21 @@
 	export OMP_NUM_THREADS=6
 	(8 core case)
 	export OMP_NUM_THREADS=8
----------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+
+
+## Appendix: Older version (e.g., cpa2002v010.tgz.9Mar2021) installation
+1. Get Akai-KKR code from http://kkr.issp.u-tokyo.ac.jp/jp/
+2. open terminal or consol on Linux window (e.g., Ubuntu 18.04)
+3. sudo apt -y install gnuplot gfortran build-essential
+4. tar zxvf cpa2002v010.tgz.9Mar2021
+5. mv cpa2002v010.tgz.9Mar2021 cpa2002v010.tgz
+6. cd cpa2002v010
+7. vi makefil
+
+	#fort = ifort
+
+	fort = gfortran
+
+8. make
+9. gfortran source/gpd.f -o gpd
+10. gfortran util/fmg.f -o fmg
