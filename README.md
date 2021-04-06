@@ -4,7 +4,6 @@
 * XC potential = PBE
 * HEA = High Entropy Alloy
 * Akai-KKR (March 29, 2021 [ 03:31:26 ])
-* http://kkr.issp.u-tokyo.ac.jp/jp/
 
 ## Installation
 1. Get Akai-KKR code from http://kkr.issp.u-tokyo.ac.jp/jp/
