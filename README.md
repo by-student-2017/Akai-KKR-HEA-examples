@@ -2,6 +2,7 @@
 
 * KKR-CPA calculation
 * XC potential = PBE
+* HEA = High Entropy Alloy
 * Akai-KKR (March 29, 2021 [ 03:31:26 ])
 * http://kkr.issp.u-tokyo.ac.jp/jp/
 
@@ -11,7 +12,7 @@
 3. sudo apt -y install gnuplot gfortran build-essential
 4. tar zxvf cpa2002v010.tgz
 5. cd cpa2002v010
-6. vi makefilz
+6. vi makefil
 
 	#fort = ifort
 
@@ -40,7 +41,7 @@
 * Normally, the calculated lattice constant differs from the experimental value by about 3%. 
 * The CPA method is theoretically acceptable for any mixing ratio. 
 * At present, the effect of stabilizing the energy more by slightly shifting the atomic position from the FCC etc. is not included. If you want to take such an effect into consideration, you need to calculate with PWscf or VASP using a supercell. This calculation is very costly. Think carefully about whether you really need a calculation that includes this effect. It is unreasonable to demand unnecessarily high accuracy. 
-
+* More detail: KKR-CPA (or CPA method in general) is a method developed to handle irregular systems with finite concentrations (including dilute limits), and is a single site approximation not only for dilute systems but also for any concentration. It is the best approximation to the placement mean (the best is the best in the variational sense). In the case of the dilute limit, it is not necessary to use CPA and it can be treated as an impurity problem of KKR. 
 
 ## Appendix: OpenMP parallel calculation
 	(4 core case)
