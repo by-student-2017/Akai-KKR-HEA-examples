@@ -8,7 +8,7 @@
 
 ## Installation
 1. Get Akai-KKR code from http://kkr.issp.u-tokyo.ac.jp/jp/
-2. open terminal or consol on Linux window (e.g., Ubuntu 18.04)
+2. open terminal or consol on Linux window (e.g., Ubuntu 18.04 or Ubuntu 18.04 LTS on WSL))
 3. sudo apt -y install gnuplot gfortran build-essential
 4. tar zxvf cpa2002v010.tgz
 5. cd cpa2002v010
