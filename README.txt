@@ -5,7 +5,7 @@ Step 1
   Get Akai-KKR code from http://kkr.issp.u-tokyo.ac.jp/jp/
 
 Step 2
-  open terminal or consol on Linux window (e.g., Ubuntu 18.04)
+  open terminal or console on Linux window (e.g., Ubuntu 18.04)
 
 Step 3
   sudo apt -y install gnuplot gfortran 
